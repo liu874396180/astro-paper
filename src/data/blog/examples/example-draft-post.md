@@ -16,6 +16,10 @@ description:
 
 Users cannot see this post because it is in draft.
 
+用户无法看到此帖子，因为它处于草稿状态。
+
 ## Motivation
+
+动机
 
 rec 1
