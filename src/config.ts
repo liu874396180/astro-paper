@@ -1,7 +1,7 @@
 export const SITE = {
   website: "https://pander-blog.pages.dev/",
   author: "lpd",
-  // profile: "https://satnaing.dev/",
+  profile: "",
   desc: "pander's blog about programming, technology, and life.",
   title: "pander's blog",
   ogImage: "astropaper-og.jpg",
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit page",
-    // url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
