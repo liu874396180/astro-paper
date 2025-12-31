@@ -4,7 +4,7 @@ pubDatetime: 2022-09-25T15:20:35Z
 modDatetime: 2025-06-13T16:46:34.155Z
 title: Customizing AstroPaper theme color schemes
 featured: false
-draft: false
+draft: true
 tags:
   - color-schemes
   - docs
@@ -153,13 +153,13 @@ Here is the detail explanation of color properties.
 | `--muted`      | Card and scrollbar background color for hover state etc.   |
 | `--border`     | Border color. Especially used in horizontal row (hr)       |
 
-| 颜色属性 | 定义和用法                                         |
-| -------------- | ---------------------------------------------------------- |
-| `--background` | 网站的主体颜色。通常是主要背景。 |
-| `--foreground` | 网站的次要颜色。通常是文本颜色。    |
-| `--accent`     | 网站的强调色。链接颜色、悬停颜色等。  |
-| `--muted`      | 卡片和滚动条背景颜色，用于悬停状态等。   |
-| `--border`     | 边框颜色。特别是在水平行 (hr) 中使用       |
+| 颜色属性       | 定义和用法                             |
+| -------------- | -------------------------------------- |
+| `--background` | 网站的主体颜色。通常是主要背景。       |
+| `--foreground` | 网站的次要颜色。通常是文本颜色。       |
+| `--accent`     | 网站的强调色。链接颜色、悬停颜色等。   |
+| `--muted`      | 卡片和滚动条背景颜色，用于悬停状态等。 |
+| `--border`     | 边框颜色。特别是在水平行 (hr) 中使用   |
 
 Here is an example of changing the light color scheme.
 

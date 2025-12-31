@@ -4,8 +4,8 @@ pubDatetime: 2022-09-23T15:22:00Z
 modDatetime: 2025-06-13T16:52:45.934Z
 title: Adding new posts in AstroPaper theme
 slug: adding-new-posts-in-astropaper-theme
-featured: true
-draft: false
+featured: false
+draft: true
 tags:
   - docs
 description:
@@ -99,21 +99,21 @@ Here is the list of frontmatter property for each post.
 | **_hideEditPost_** | Hide editPost button under blog title. This applies only to the current blog post.                                                    | default = false                                |
 | **_timezone_**     | Specify a timezone in IANA format for the current blog post. This will override the `SITE.timezone` config for the current blog post. | default = `SITE.timezone`                      |
 
-| 属性           | 描述                                                                                                                           | 备注                                         |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| **_title_**        | 帖子的标题。（h1）                                                                                                               | required<sup>\*</sup>                          |
-| **_description_**  | 帖子的描述。用于帖子摘录和帖子的站点描述。                                                       | required<sup>\*</sup>                          |
-| **_pubDatetime_**  | 以 ISO 8601 格式发布的日期时间。                                                                                                | required<sup>\*</sup>                          |
-| **_modDatetime_**  | 以 ISO 8601 格式修改的日期时间。（仅在博客帖子被修改时添加此属性）                                           | optional                                       |
-| **_author_**       | 帖子的作者。                                                                                                                   | default = SITE.author                          |
-| **_slug_**         | 帖子的 slug。此字段是可选的。                                                                                            | default = slugified file name                  |
-| **_featured_**     | 是否在主页的特色部分显示此帖子                                                                     | default = false                                |
-| **_draft_**        | 将此帖子标记为“未发布”。                                                                                                         | default = false                                |
-| **_tags_**         | 此帖子的相关关键词。以数组 yaml 格式编写。                                                                         | default = others                               |
-| **_ogImage_**      | 帖子的 OG 图像。对社交媒体分享和 SEO 有用。这可以是远程 URL 或相对于当前文件夹的图像路径。  | default = `SITE.ogImage` or generated OG image |
-| **_canonicalURL_** | 规范 URL（绝对），以防文章已经在其他来源存在。                                                         | default = `Astro.site` + `Astro.url.pathname`  |
-| **_hideEditPost_** | 隐藏博客标题下的 editPost 按钮。这仅适用于当前博客帖子。                                                    | default = false                                |
-| **_timezone_**     | 为当前博客帖子指定 IANA 格式的时区。这将覆盖当前博客帖子的 `SITE.timezone` 配置。 | default = `SITE.timezone`                      |
+| 属性               | 描述                                                                                       | 备注                                           |
+| ------------------ | ------------------------------------------------------------------------------------------ | ---------------------------------------------- |
+| **_title_**        | 帖子的标题。（h1）                                                                         | required<sup>\*</sup>                          |
+| **_description_**  | 帖子的描述。用于帖子摘录和帖子的站点描述。                                                 | required<sup>\*</sup>                          |
+| **_pubDatetime_**  | 以 ISO 8601 格式发布的日期时间。                                                           | required<sup>\*</sup>                          |
+| **_modDatetime_**  | 以 ISO 8601 格式修改的日期时间。（仅在博客帖子被修改时添加此属性）                         | optional                                       |
+| **_author_**       | 帖子的作者。                                                                               | default = SITE.author                          |
+| **_slug_**         | 帖子的 slug。此字段是可选的。                                                              | default = slugified file name                  |
+| **_featured_**     | 是否在主页的特色部分显示此帖子                                                             | default = false                                |
+| **_draft_**        | 将此帖子标记为“未发布”。                                                                   | default = false                                |
+| **_tags_**         | 此帖子的相关关键词。以数组 yaml 格式编写。                                                 | default = others                               |
+| **_ogImage_**      | 帖子的 OG 图像。对社交媒体分享和 SEO 有用。这可以是远程 URL 或相对于当前文件夹的图像路径。 | default = `SITE.ogImage` or generated OG image |
+| **_canonicalURL_** | 规范 URL（绝对），以防文章已经在其他来源存在。                                             | default = `Astro.site` + `Astro.url.pathname`  |
+| **_hideEditPost_** | 隐藏博客标题下的 editPost 按钮。这仅适用于当前博客帖子。                                   | default = false                                |
+| **_timezone_**     | 为当前博客帖子指定 IANA 格式的时区。这将覆盖当前博客帖子的 `SITE.timezone` 配置。          | default = `SITE.timezone`                      |
 
 > Tip! You can get ISO 8601 datetime by running `new Date().toISOString()` in the console. Make sure you remove quotes though.
 
@@ -163,7 +163,7 @@ title: The title of the post
 author: your name
 pubDatetime: 2022-09-21T05:17:19Z
 slug: the-title-of-the-post
-featured: true
+featured: false
 draft: false
 tags:
   - some

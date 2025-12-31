@@ -3,7 +3,7 @@ title: Tailwind Typography Plugin
 author: Sat Naing
 pubDatetime: 2022-07-05T02:05:51Z
 featured: false
-draft: false
+draft: true
 tags:
   - TypeScript
   - Astro
@@ -77,13 +77,13 @@ It's important to cover all of these use cases for a few reasons:
 
 1. 我们希望一切开箱即用看起来不错。
 
-2. Really just the first reason, that's the whole point of the plugin.
+1. Really just the first reason, that's the whole point of the plugin.
 
-2. 真的只是第一个原因，那就是插件的全部要点。
+1. 真的只是第一个原因，那就是插件的全部要点。
 
-3. Here's a third pretend reason though a list with three items looks more realistic than a list with two items.
+1. Here's a third pretend reason though a list with three items looks more realistic than a list with two items.
 
-3. 这里有一个第三个假装的原因，虽然一个有三个项目的列表看起来比有两个项目的更真实。
+1. 这里有一个第三个假装的原因，虽然一个有三个项目的列表看起来比有两个项目的更真实。
 
 Now we're going to try out another header style.
 
@@ -230,7 +230,6 @@ Nested lists basically always look bad which is why editors like Medium don't ev
 1. **Nested lists are rarely a good idea.**
 
 1. **嵌套列表很少是个好主意。**
-
    - You might feel like you are being really "organized" or something but you are just creating a gross shape on the screen that is hard to read.
 
    - 你可能觉得你在“组织”或什么，但你只是在屏幕上创建一个难读的粗糙形状。
@@ -243,10 +242,9 @@ Nested lists basically always look bad which is why editors like Medium don't ev
 
    - 在你的源代码中嵌套大量文件夹也没有帮助。
 
-2. **Since we need to have more items, here's another one.**
+1. **Since we need to have more items, here's another one.**
 
-2. **既然我们需要有更多项目，这里是另一个。**
-
+1. **既然我们需要有更多项目，这里是另一个。**
    - I'm not sure if we'll bother styling more than two levels deep.
 
    - 我不确定我们是否会费心样式化超过两层深。
@@ -259,10 +257,9 @@ Nested lists basically always look bad which is why editors like Medium don't ev
 
    - 如果你嵌套四层深，你属于监狱。
 
-3. **And here's a third item.**
+1. **And here's a third item.**
 
-3. **这里是第三个项目。**
-
+1. **这里是第三个项目。**
    - If you nest four levels deep you belong in prison.
 
    - 如果你嵌套四层深，你属于监狱。

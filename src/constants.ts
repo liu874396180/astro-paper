@@ -7,6 +7,8 @@ import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
+import IconCSDN from "@/assets/icons/IconCSDN.svg"; // 添加这一行
+
 import { SITE } from "@/config";
 
 interface Social {
@@ -22,6 +24,12 @@ export const SOCIALS: Social[] = [
     href: "https://github.com/liu874396180",
     linkTitle: `${SITE.title} on GitHub`,
     icon: IconGitHub,
+  },
+  {
+    name: "CSDN",
+    href: "https://blog.csdn.net/Lpandeng",
+    linkTitle: `${SITE.title} on CSDN`,
+    icon: IconCSDN,
   },
   // {
   //   name: "X",
