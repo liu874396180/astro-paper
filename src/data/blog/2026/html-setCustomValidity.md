@@ -5,7 +5,7 @@ modDatetime:
 title: html` setCustomValidity() `方法添加自定义表单验证
 featured: false
 draft: false
-codepenUrl: https://codepen.io/liu874396180/embed/JoKYrej?default-tab=html%2Cresult
+codepenUrl: https://codepen.io/liu874396180/embed/JoKYrej?default-tab=html%2Cresult&editable=true
 tags:
   - html
   - javascript
