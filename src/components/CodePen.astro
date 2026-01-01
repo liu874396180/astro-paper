@@ -1,0 +1,21 @@
+---
+
+const { iframeUrl, title = "CodePen Embed" } = Astro.props;
+---
+
+{iframeUrl && (
+  <div class="codepen-embed-container">
+    <iframe 
+      height="300" 
+      style="width: 100%;" 
+      scrolling="no" 
+      title={title}
+      src={iframeUrl}
+      frameborder="no" 
+      loading="lazy" 
+      allowtransparency="true"
+      sandbox="allow-scripts allow-same-origin allow-forms"
+    >
+    </iframe>
+  </div>
+)}
