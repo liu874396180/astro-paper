@@ -52,6 +52,13 @@ description: 免费音乐项目汇总
 - **描述**: 基于 SPlayer 二次开发，一款简洁优雅的多平台音乐播放器 (网易云 & QQ 音乐)
 - **预览图**: ![预览图](https://github.com/tlyanyu/MuPlayer/raw/main/screenshots/%E6%88%AA%E5%9B%BEnetease-home.png)
 
+## nuclear
+
+- **GitHub**: [https://github.com/nukeop/nuclear](https://github.com/nukeop/nuclear)
+- **在线地址**: [https://nuclearplayer.com/](https://nuclearplayer.com/)
+- **描述**: 一款能为你找到免费音乐的流媒体音乐播放器
+- **预览图**: ![预览图](https://github.com/nukeop/nuclear/raw/master/screenshots/screenshot_default.jpg)
+
 ## 简单听个歌吧
 
 简单来听个歌吧，打开就能听。就求听个响听个方便，不想搜这搜那，打开就点一下就能听了。
