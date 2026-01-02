@@ -7,12 +7,10 @@ featured: true
 draft: false
 tags:
   - csdn
-description: 以往的csdn博客文章列表汇总。逐个内容爬取迁移效果总不是那么理想的，索性就就把文章标题和描述都列出来，方便自己搜索&查阅。
+description: 以往的csdn博客文章列表汇总。逐个内容爬取迁移效果总不是那么理想的，索性就就把文章标题和描述都列出来，方便自己搜索&查阅。（天下苦csdn久已😮‍💨）
 ---
 
 ## Table of contents
-
-## heading 1
 
 # 文章列表
 
