@@ -43,3 +43,12 @@ description: 开源笔记项目，开源文字阅读等项目 汇总
 - **在线地址**: [https://md.newkit.site/](https://md.newkit.site/)
 - **描述**: NeuraPress 是一个现代化的 Markdown 编辑器，专注于提供优质的微信公众号排版体验。响应式设计，支持移动设备。搭配 DeepSeek 和微信公众号助手使用，碎片时间也能用手机发有排版的文章了。
 - **预览图**: ![预览图](https://github.com/tianyaxiang/neurapress/raw/main/public/assets/img/neurapress-web-app.jpg)
+
+
+
+
+## ebook-treasure-chest
+
+- **github** : [https://github.com/jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest)
+
+- **描述**: 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。

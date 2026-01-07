@@ -343,3 +343,6 @@ description: 开源TV项目汇总
 | 125  | 冬瓜TV       | [http://107.173.123.136/](http://107.173.123.136/)               |
 | 126  | 247看        | [https://247kan.com/](https://247kan.com/)                       |
 | 127  | 发现之门     | [https://faxianx.com/](https://faxianx.com/)                     |
+| 128  | 简单TV      | [https://jiandantv.com/](https://jiandantv.com/)               |
+| 129  | 飞快TV     | [https://feikuai.tv/](https://feikuai.tv/)                     |
+
