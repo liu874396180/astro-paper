@@ -1,7 +1,7 @@
 ---
 author: lpd
 pubDatetime: 2026-01-02T21:54:13.000+08:00
-modDatetime:
+modDatetime: 2026-01-08T17:00:18.588Z
 title: 开源TV项目汇总
 featured: true
 draft: true
@@ -130,6 +130,18 @@ description: 开源TV项目汇总
 - **在线地址**：[https://tv.garden/](https://tv.garden/)
 - **描述**：
   IPTV 在线播放网站，主打无需配置、即开即看，偏向公共直播流聚合。
+
+
+### 壳儿（kerkerker）
+- **项目名称**：壳儿（kerkerker）
+- **GitHub 地址**：[https://github.com/unilei/kerkerker](https://github.com/unilei/kerkerker)
+- **在线地址**：[https://kerkerker.vercel.app/](https://kerkerker.vercel.app/)
+- **描述**：这是壳儿 - 影视聚合平台 - 豆瓣集成/多源切换/智能匹配 | Next.js + TypeScript | Docker 部署 | Vercel 部署
+
+### DTV
+- **项目名称**：DTV
+- **GitHub 地址**：[https://github.com/chen-zeong/DTV](https://github.com/chen-zeong/DTV)
+- **描述**： 抖音、b站、斗鱼、虎牙跨平台轻量化桌面客户端。本项目基于 Tauri 2.0 开发，体积小，占用率低，实测可以在10年前的双核、4GB内存的电脑上流畅运行
 
 ### 网飞猫
 

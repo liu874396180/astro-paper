@@ -1,7 +1,7 @@
 ---
 author: lpd
 pubDatetime: 2026-01-08T23:30:12.000+08:00
-modDatetime: 
+modDatetime: 2026-01-08T17:00:18.588Z
 title: pdf/word/excel/png文档处理汇总
 featured: true
 draft: false
@@ -56,3 +56,10 @@ description: 免费的pdf/word/excel/png文档处理汇总。
 **在线地址**：[https://img.ops-coffee.com/](https://img.ops-coffee.com/)
 
 **描述**：免费在线拼图工具，提供布局拼图和长图拼接两大核心模式。所有操作均在本地完成，布局丰富、完全免费、无需登录、简洁干净、体验友好、注重隐私，支持无水印高清下载。
+
+
+
+## 文档翻译器
+**GitHub地址**：[https://github.com/funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC)
+**描述**：又一个文档翻译器
+**在线地址**：[https://funstory-ai.github.io/BabelDOC/](https://funstory-ai.github.io/BabelDOC/)
