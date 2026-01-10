@@ -1,0 +1,56 @@
+name: Update Blog Modification Dates
+
+on:
+  push:
+    branches: [main]
+    paths: 
+      - 'src/data/blog/**/*.md'
+      - 'data/blog/**/*.md'
+
+jobs:
+  update-mod-datetime:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Update modification dates
+      run: |
+        # 安装 jq 如果需要解析 frontmatter
+        sudo apt-get update
+        sudo apt-get install -y jq
+        
+        # 获取所有修改的博客文件
+        git diff --name-only HEAD^ HEAD | grep -E '\.(md|mdx)$' | while read file; do
+          if [ -f "$file" ] && head -20 "$file" | grep -q "modDatetime"; then
+            # 获取当前 UTC 时间
+            NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            
+            # 读取 draft 状态
+            DRAFT=$(awk '/^---$/,/^---$/' "$file" | grep "draft:" | cut -d: -f2 | xargs)
+            
+            # 只在非草稿状态下更新 modDatetime
+            if [ "$DRAFT" = "false" ] || [ "$DRAFT" = "first" ]; then
+              if [ "$DRAFT" = "first" ]; then
+                sed -i "s/^draft:.*/draft: false/" "$file"
+                echo "Marked $file as published"
+              fi
+              
+              sed -i "s/^modDatetime:.*/modDatetime: $NOW/" "$file"
+              echo "Updated modDatetime in $file"
+              git add "$file"
+            fi
+          fi
+        done
+        
+        # 提交更改
+        if [ -n "$(git status --porcelain)" ]; then
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update modification dates [skip ci]" -a
+          git push
+        fi
