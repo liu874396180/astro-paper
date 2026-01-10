@@ -63,3 +63,7 @@ description: 免费的pdf/word/excel/png文档处理汇总。
 **GitHub地址**：[https://github.com/funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC)
 **描述**：又一个文档翻译器
 **在线地址**：[https://funstory-ai.github.io/BabelDOC/](https://funstory-ai.github.io/BabelDOC/)
+
+## ConvertX
+**描述**：自托管在线文件转换器。支持 1000 多种格式 
+**GitHub**：[https://github.com/C4illin/ConvertX](https://github.com/C4illin/ConvertX)
